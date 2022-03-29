@@ -1,0 +1,40 @@
+#shopify-section-announcement-bar {
+    .announcement-bar {
+        background-color: $color-purple !important;
+        display: flex;
+        justify-content: flex-end;
+        .annoncementMessageContainer {
+            display: flex;
+            max-width: 120rem;
+            padding: 0 5rem;
+            margin-right: auto;
+            .announcement-bar__message {
+                margin-right: 48px;
+                
+            }
+        }
+        .annoncementAccountContainer{
+            display: flex;
+            padding: 0 7rem;
+
+            a {
+
+                text-decoration: none;
+            }
+            span {
+                color: $color-white;
+            }
+            svg {
+                color: $color-white;
+                margin-left: 5px;
+            }
+            .tets {
+                margin-left: 15px;
+            }
+        }
+    }
+    .h5  {
+        font-family: $JosefinSans-SemiBold !important;
+        color: $color-white;
+    }
+}
