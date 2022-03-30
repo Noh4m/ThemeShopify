@@ -1,0 +1,15 @@
+.header {
+    .h2 {
+        font-family: $JosefinSans-Bold !important;
+        font-size: 	3.4rem ;
+        color: $color-Navy-Blue !important;
+    }
+    .header__menu-item {
+        &:hover{
+            color: $color-pink;
+        }
+    }
+    .header__active-menu-item {
+        color: $color-pink;
+    }
+}

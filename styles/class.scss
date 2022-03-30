@@ -1,15 +1,29 @@
 // COLOR // 
 $color-purple: #7E33E0;
+$color-off-purple: #9F63B5;
+$color-pantone-purple: #E0D3F5;
 $color-pink: #FB2E86;
-$color-text: #151875;
-$JosefinSans-SemiBold: "JosefinSans-SemiBold", sans-serif;
+$color-red: #FB2448;
+$color-Blue: #2F1AC4;
+$color-Navy-Blue: #151875;
+$color-Off-Navy-Blue: #3F509E;
 $color-white: white;
 
+//TYPO
+$JosefinSans-SemiBold: "JosefinSans-SemiBold", sans-serif;
+$JosefinSans-Bold: "JosefinSans-Bold", sans-serif;
 
-// TYPO //
+
+// TYPO FONT-FACE//
 @font-face {
     font-family: "JosefinSans-SemiBold";
     src: url("JJosefinSans-SemiBold.woff2") format("woff2"),
-    url("JosefinSans-SemiBoldwoff2") format("woff2"),
-   }
+    url("JosefinSans-SemiBold.woff2") format("woff2"),
+}
+   
+@font-face {
+    font-family: "JosefinSans-Bold";
+    src: url("JJosefinSans-Bold.woff2") format("woff2"),
+    url("JosefinSans-Bold.woff2") format("woff2"),
+}
    

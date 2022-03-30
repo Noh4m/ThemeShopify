@@ -1,0 +1,67 @@
+ <!-- Link Swiper's CSS -->
+ <link
+ rel="stylesheet"
+ href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'slide' %}
+                
+                <div class="swiper-slide">
+                    {{ block.settings.image | image_url: width: 2048 | image_tag }}
+                   
+                </div>
+                    
+            {% endcase %}
+        {% endfor %}
+   
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+        
+        pagination: {
+          el: ".swiper-pagination",
+        },
+    });
+  </script>
+
+
+{% schema %}
+{
+"name": "Section name",
+"tag": "section",
+"settings": [],
+"presets": [
+{
+"name": "Welcome section Test",
+"category": "ADVANCED LAYOUT"
+}
+],
+"blocks": [
+    {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            }
+        ]
+    }
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+
+{% endstylesheet %}

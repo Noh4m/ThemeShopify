@@ -331,8 +331,8 @@
       "delete": "Delete",
       "delete_confirm": "Are you sure you wish to delete this address?"
     },
-    "log_in": "Log in",
-    "log_out": "Log out",
+    "log_in": "Login",
+    "log_out": "Logout",
     "login_page": {
       "cancel": "Cancel",
       "create_account": "Create account",
