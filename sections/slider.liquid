@@ -11,8 +11,14 @@
                 {% when 'slide' %}
                 
                 <div class="swiper-slide">
-                    {{ block.settings.image | image_url: width: 2048 | image_tag }}
-                   
+                    {{ block.settings.image | image_url: width: auto | image_tag }}
+                    <div class="swiper-slideContent">
+                        <h3 class="swiper-slideContentSubTitle">Best Furniture For Your Castle....</h3>
+                        <h1 class="swiper-slideContentTitle">New Furniture Collection
+                            Trends in 2020</h1>
+                        <p class="swiper-slideContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+                            in phasellus non in justo.</p>
+                    </div>
                 </div>
                     
             {% endcase %}

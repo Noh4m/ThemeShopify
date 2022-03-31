@@ -1,6 +1,7 @@
 // COLOR // 
 $color-purple: #7E33E0;
 $color-off-purple: #9F63B5;
+$color-sub-purple: #8A8FB9;
 $color-pantone-purple: #E0D3F5;
 $color-pink: #FB2E86;
 $color-red: #FB2448;
@@ -12,6 +13,7 @@ $color-white: white;
 //TYPO
 $JosefinSans-SemiBold: "JosefinSans-SemiBold", sans-serif;
 $JosefinSans-Bold: "JosefinSans-Bold", sans-serif;
+$Lato-Bold: "Lato-Bold", sans-serif;
 
 
 // TYPO FONT-FACE//
@@ -23,7 +25,13 @@ $JosefinSans-Bold: "JosefinSans-Bold", sans-serif;
    
 @font-face {
     font-family: "JosefinSans-Bold";
-    src: url("JJosefinSans-Bold.woff2") format("woff2"),
+    src: url("JosefinSans-Bold.woff2") format("woff2"),
     url("JosefinSans-Bold.woff2") format("woff2"),
+}
+   
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("Lato-Bold.woff2") format("woff2"),
+     url("Lato-Bold.woff2") format("woff2"),
 }
    
