@@ -1,12 +1,17 @@
 #shopify-section-announcement-bar {
     .announcement-bar {
         background-color: $color-purple !important;
+        .announcement{
+            display: flex;
+            justify-content: flex-end;
+            width: 120rem;
+        }
+     
         display: flex;
         justify-content: flex-end;
         .annoncementMessageContainer {
             display: flex;
             max-width: 120rem;
-            padding: 0 5rem;
             margin-right: auto;
             .announcement-bar__message {
                 margin-right: 48px;
